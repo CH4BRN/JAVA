@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Adapter_Eclipse/src"/>
+	<classpathentry kind="src" path="BankAccount_I_Eclipse/src"/>
+	<classpathentry kind="src" path="BankAccount_I_Eclipse/tests"/>
+	<classpathentry kind="src" path="Bankaccount_II_Eclipse/src"/>
+	<classpathentry kind="src" path="Bankaccount_II_Eclipse/tests"/>
+	<classpathentry kind="src" path="Boucles_Eclipse/src"/>
+	<classpathentry kind="src" path="Brebis_Eclipse/src"/>
+	<classpathentry kind="src" path="Cars_Eclipse/src"/>
+	<classpathentry kind="src" path="Conversion_Eclipse/src"/>
+	<classpathentry kind="src" path="Conversion_Eclipse/tests"/>
+	<classpathentry kind="src" path="Fahrenheit_Eclipse/src"/>
+	<classpathentry kind="src" path="Fahrenheit_Eclipse/tests"/>
+	<classpathentry kind="src" path="Fibonacci_Eclipse/src"/>
+	<classpathentry kind="src" path="MaxEtMoyenne_Eclipse/src"/>
+	<classpathentry kind="src" path="Menu_Eclipse/src"/>
+	<classpathentry kind="src" path="Multiples2_Eclipse"/>
+	<classpathentry kind="src" path="Observer_Eclipse/src"/>
+	<classpathentry kind="src" path="Pi_Eclipse/src"/>
+	<classpathentry kind="src" path="PileStack_Eclipse/src"/>
+	<classpathentry kind="src" path="PrimeNumber_Eclipse/src/src"/>
+	<classpathentry excluding="src/" kind="src" path="Proxy_Eclipse"/>
+	<classpathentry kind="src" path="Proxy_Eclipse/src"/>
+	<classpathentry kind="src" path="ProxyVirtual_Eclipse/src"/>
+	<classpathentry kind="src" path="Singleton_Eclipse/src"/>
+	<classpathentry kind="src" path="TableMulti_Eclipse/src"/>
+	<classpathentry kind="src" path="Test_Clone_Eclipse/src"/>
+	<classpathentry kind="src" path="TestMap_Eclipse/src"/>
+	<classpathentry kind="output" path="Adapter_Eclipse/bin"/>
+</classpath>
