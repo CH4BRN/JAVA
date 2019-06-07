@@ -5,7 +5,7 @@ import java.awt.Graphics;
 
 import dessin.contracts.IComponent;
 
-public class CarreCentre extends CarreSimple implements IComponent{
+public class CarreCentre extends CarreSimple {
     
     /** Couleur utilisée pour dessiner la croix **/
     private static Color color = Color.BLACK;

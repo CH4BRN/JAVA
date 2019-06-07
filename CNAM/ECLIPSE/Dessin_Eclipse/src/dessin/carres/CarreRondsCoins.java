@@ -5,7 +5,7 @@ import java.awt.Graphics;
 
 import dessin.contracts.IComponent;
 
-public class CarreRondsCoins extends CarreSimple implements IComponent{
+public class CarreRondsCoins extends CarreSimple {
     
     /** Couleur des ronds dessinés dans les coins **/
     private static Color color = Color.CYAN;

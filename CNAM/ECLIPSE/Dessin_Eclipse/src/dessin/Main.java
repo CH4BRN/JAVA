@@ -55,30 +55,14 @@ class DessinPanel extends JPanel{
         // en haut à droite
         CarreRondsCoins c4 = new CarreRondsCoins(800, 200, 100);
         c4.component = new CarreMarqueMilieu(800, 200, 100);
-       c4.draw(g);
+        c4.draw(g);
         
         // en bas à droite
         CarreCentre c5 = new CarreCentre(800, 800, 100);
         c5.component = new CarreMarqueMilieu(800, 800, 100);
-       c5.draw(g);
+        c5.draw(g);
         
-    	/*
-    	CarreSimple c6 = new CarreSimple(800, 800, 100);
-    	CarreSimple carreCentre = new CarreCentre(800, 800, 100);
-    	CarreSimple carreMarque = new CarreMarqueMilieu(800, 800, 100);
-    	CarreSimple carreDouble = new CarreDoubleBordure(800, 800, 100);
-    	CarreSimple carreRond  = new CarreRondsCoins(800, 800, 100);
-    	  	
-    	carreDouble.component = carreRond;
-    	    	
-    	carreMarque.component = carreDouble;
-    	    	
-    	carreCentre.component = carreMarque;
-    	    	
-    	c6.component = carreCentre;
-    	c6.draw(g);
 
-*/
     	
     	
     }

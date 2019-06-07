@@ -5,7 +5,7 @@ import java.awt.Graphics;
 
 import dessin.contracts.IComponent;
 
-public class CarreMarqueMilieu extends CarreSimple implements IComponent{
+public class CarreMarqueMilieu extends CarreSimple {
     
     /** Couleur des rectangles dessinés sur chaque côté **/
     private static Color color = Color.RED;

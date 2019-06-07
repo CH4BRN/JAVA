@@ -5,7 +5,7 @@ import java.awt.Graphics;
 
 import dessin.contracts.IComponent;
 
-public class CarreDoubleBordure extends CarreSimple implements IComponent{
+public class CarreDoubleBordure extends CarreSimple {
     
     /** Couleur utilisée pour dessiner la bordure supplémentaire **/
     private static Color color = Color.GRAY;
