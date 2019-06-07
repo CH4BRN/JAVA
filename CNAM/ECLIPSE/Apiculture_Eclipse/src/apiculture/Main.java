@@ -3,6 +3,7 @@ package apiculture;
 import apiculture.abeille.Abeille;
 import apiculture.abeille.Nettoyeuse;
 import apiculture.abeille.Nourrice;
+import apiculture.abeille.Ventileuse;
 import apiculture.ruche.CelluleMale;
 import apiculture.ruche.CelluleOuvriere;
 import apiculture.ruche.CelluleRoyale;
@@ -47,6 +48,10 @@ public class Main {
         // création des visiteurs
         Abeille nettoyeuse1 = new Nettoyeuse("Nettoyeuse 1");
         Abeille nourrice1 = new Nourrice("Nourrice 1");
+                
+        Abeille nourrice2 = new Nourrice("Nourrice 2 ");
+        
+        Abeille ventileuse1 = new Ventileuse("Ventileuse 1");
         
         // action : entretien de la ruche
         System.out.println("=== Travail de nettoyeuse1 ===");
@@ -54,6 +59,15 @@ public class Main {
         
         System.out.println("=== Travail de nourrice1 ===");
         ruche1.accept(nourrice1);
+        
+        System.out.println("=== Travail de nourrice2 ===");
+        rayon2.accept(nourrice2);
+        
+        System.out.println("=== Travail de ventileuse 1 ===");
+        ruche1.accept(ventileuse1);
+        
+        
+        
 	}
 
 }
