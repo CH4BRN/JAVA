@@ -1,6 +1,6 @@
 package Adapter.model;
-
-public class SecondAneAdapter implements Cheval{
+//Ane adapter working with composition
+public class SecondAneAdapter implements ICheval{
 
 	private Ane ane = new Ane();
 	@Override

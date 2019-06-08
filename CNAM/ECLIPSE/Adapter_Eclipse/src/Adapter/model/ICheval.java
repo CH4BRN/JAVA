@@ -1,6 +1,6 @@
 package Adapter.model;
 
-public interface Cheval {
+public interface ICheval {
 
 	public void hennir();
 }
