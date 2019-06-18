@@ -1,10 +1,18 @@
 package iterator;
 
-/** Iterateur abstrait.
+/**Interface qui garantis qu'on a bien un iterateur.
  * @author pierre.antoine
  *
  */
 public interface IIterator {
-    public Object next();
-    public boolean hasNext();
+
+	/** 
+	 * Renvoie l'élément courant et avance la position de l'itération
+	 **/ 
+	public Object next();
+	
+	/** 
+	 * Indique s'il reste des éléments à parcourir
+	 **/
+	public boolean hasNext();
 }
