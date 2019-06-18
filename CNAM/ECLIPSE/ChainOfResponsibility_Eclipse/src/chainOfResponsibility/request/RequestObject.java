@@ -1,6 +1,6 @@
 package chainOfResponsibility.request;
 
-public class RequestObject {
+public class RequestObject implements IRequest {
 	public RequestObject(double amount) 
 	{ 
 		this.amount = amount; 

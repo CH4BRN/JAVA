@@ -4,7 +4,7 @@ package chainOfResponsibility.request;
  * @author pierre.antoine
  *
  */
-public class Request {
+public class Request implements IRequest{
 	
 	 private double amount;
 	    public Request(double amount) { this.amount = amount; }

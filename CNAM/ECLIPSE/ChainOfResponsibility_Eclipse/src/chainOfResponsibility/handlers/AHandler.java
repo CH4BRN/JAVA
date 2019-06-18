@@ -23,7 +23,7 @@ public abstract class AHandler {
 	/**To ensure that every handler have a getRole() method.
 	 * @return
 	 */
-	public abstract String getRole();
+	public String getRole() { return this.getClass().getSimpleName(); }
 	
 	/**Set the successor.
 	 * @param successor
