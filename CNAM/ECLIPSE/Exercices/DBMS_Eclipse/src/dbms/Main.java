@@ -3,7 +3,6 @@ package dbms;
 import dbms.contracts.AConnection;
 import dbms.contracts.AFactory;
 import dbms.contracts.AQuery;
-import dbms.entities.factories.AbstractFactory;
 import dbms.entities.factories.MySQLFactory;
 import dbms.entities.factories.PostgresqlFactory;
 import dbms.entities.factories.SqliteFactory;
