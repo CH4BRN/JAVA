@@ -3,6 +3,7 @@ package duckSimulator_Eclipse;
 import duckSimulator_Eclipse.Simulators.CompositeSimulator;
 import duckSimulator_Eclipse.Simulators.FactorySimulator;
 import duckSimulator_Eclipse.Simulators.GooseSimulator;
+import duckSimulator_Eclipse.Simulators.ObserverSimulator;
 import duckSimulator_Eclipse.client.Client;
 import old.DuckSimulator;
 
@@ -22,12 +23,15 @@ public class Main {
 		Client factoryClient = new Client(new FactorySimulator());
 		factoryClient.simulate(0);
 		factoryClient.simulate(1);
-	*/	
+		
 		Client compositeClient = new Client(new CompositeSimulator());
 		compositeClient.simulate(0);
 		compositeClient.simulate(1);
 		
+		*/
 		
+		Client observerClient = new Client(new ObserverSimulator());
+		observerClient.simulate(0);
 		
 	
 	}

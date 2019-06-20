@@ -3,6 +3,11 @@ package brebis.contracts;
 import java.util.ArrayList;
 import java.util.List;
 
+/** It's the subject, it has Observers. Subject = Observable.
+ * All the observers are notified when the subect's state changes.
+ * @author pierre.antoine
+ *
+ */
 public abstract class AObservable{
     
     /**Observers list
