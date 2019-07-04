@@ -5,5 +5,5 @@
  * @author pierre.antoine
  *
  */
-module interpreter_Eclipse {
+module interpreter_pattern_Eclipse {
 }
