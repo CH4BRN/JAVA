@@ -8,6 +8,10 @@ import old.MallardDuck;
 import old.RedheadDuck;
 import old.RubberDuck;
 
+/** Factory that implements IAbstractFactory
+ * @author pierre.antoine
+ *
+ */
 public class DecoratedAbstractFactory implements IAbstractFactory{
 
 	@Override
