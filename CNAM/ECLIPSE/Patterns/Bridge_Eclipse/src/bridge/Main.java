@@ -7,16 +7,18 @@ import bridge.gear.ManualGear;
 import bridge.vehicle.AVehicle;
 import bridge.vehicle.Car;
 import bridge.vehicle.Truck;
+import bridge.wheels.FourWheels;
+import bridge.wheels.TwoWheels;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		AVehicle vehicle_1 = new Car(new AutomaticGear());
-		AVehicle vehicle_2 = new Car(new ManualGear());
-		AVehicle vehicle_3 = new Truck(new AutomaticGear());
-		AVehicle vehicle_4 = new Truck(new ManualGear());
+		AVehicle vehicle_1 = new Car(new AutomaticGear(), new TwoWheels());
+		AVehicle vehicle_2 = new Car(new ManualGear(), new FourWheels());
+		AVehicle vehicle_3 = new Truck(new AutomaticGear(), new TwoWheels());
+		AVehicle vehicle_4 = new Truck(new ManualGear(), new FourWheels());
 		
 		ArrayList<AVehicle> list = new ArrayList<AVehicle>();
 		
@@ -27,6 +29,7 @@ public class Main {
 		
 		for (AVehicle aVehicle : list) {
 			aVehicle.displayGear();
+			aVehicle.displayWheels();
 		}
 		
 	}
