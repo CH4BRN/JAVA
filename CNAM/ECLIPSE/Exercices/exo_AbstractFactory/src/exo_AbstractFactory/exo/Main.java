@@ -1,0 +1,13 @@
+package exo_AbstractFactory.exo;
+
+public class Main {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Client client = new Client();
+		
+		client.Simulation_1();
+	}
+
+}
