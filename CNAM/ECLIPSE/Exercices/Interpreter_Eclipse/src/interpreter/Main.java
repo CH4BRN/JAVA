@@ -8,7 +8,7 @@ public class Main {
 	
 	public static void main(String[] args)
 	{
-		String str = "neuf plus quatre";
+		String str = "trois plus six plus sept fois dix plus deux";
 		
 		
 		try {

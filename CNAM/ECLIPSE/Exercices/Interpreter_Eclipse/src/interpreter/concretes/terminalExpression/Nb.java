@@ -20,6 +20,7 @@ public class Nb implements IAbstractExpression{
             case "sept" : value = 7; break;
             case "huit" : value = 8; break;
             case "neuf" : value = 9; break;
+            case "dix" : value = 10; break;
             default:
                 throw new IllegalExpressionException("Illegal number string : " + str);
          }
